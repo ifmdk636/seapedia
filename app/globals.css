@@ -10,7 +10,7 @@
   --color-shop_dark_green: #063c28;
   --color-shop_light_green: #3b9c3c;
   --color-shop_light_pink: #063d29;
-  --shop_light_pink: #f6f6f6;
+  --color-shop_light_green: #d3d3d3;
   --shop_light_pink: #3b9c3c;
   --shop_light_pink: #fb6c08;
   --shop_light_pink: #151515;
@@ -142,5 +142,8 @@
   }
   .hoverEffect {
     @apply transition-all duration-300 ease-in-out;
+  }
+  button {
+    @apply hover:cursor-pointer;
   }
 }
