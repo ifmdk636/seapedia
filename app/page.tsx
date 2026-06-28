@@ -1,15 +1,13 @@
 import { Button } from "@/components/ui/button";
+import Container from "@/components/Container";
+import HomeBanner from "@/components/HomeBanner";
 
 export default function Home() {
   return (
     <>
-      <div className="">
-        <h2>Home</h2>
-        <p>Lorem</p>
-        <Button size="lg" variant="destructive">
-          Check Out
-        </Button>
-      </div>
+      <Container className="bg-shop-light-pink">
+        <HomeBanner />
+      </Container>
     </>
   );
 }
